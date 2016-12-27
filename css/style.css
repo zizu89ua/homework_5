@@ -70,8 +70,10 @@ a{
     background: rgba(0, 0, 0, 0.5);
     margin: 215px auto;
     height: 615px;
-    width: 560px;
-    
+    width: 560px;  
+}
+form img{
+    width: 295px;
 }
 .top{
     border-bottom: 2px solid #a6b39f;
@@ -103,25 +105,52 @@ input::-webkit-input-placeholder{
     color: #999999;
 }
 .box{
-    color: #7c7f7c;
+    color: #999999;
+    position: relative;
 }
 .box::after{
     content: " ";
     position: absolute;
     border-color: #666666;
     border-style: solid;
-    border-width: 0px 46px 1px 71px;
+    border-width: 0px 58px 1px 71px;
     box-shadow: 0px 1px 0px 0px rgba(0,0,0,1);
-    top: 413px;
-    right: 534px;
+    top: 10px;
+    right: 30px;
 }
 .box::before{
     content: " ";
     position: absolute;
     border-color: #666666;
     border-style: solid;
-    border-width: 0px 46px 1px 71px;
+    border-width: 0px 58px 1px 71px;
     box-shadow: 0px 1px 0px 0px rgba(0,0,0,1);
-    top: 413px;
-    left: 534px;
+    top: 10px;
+    left: 30px;
 }
+.submit p{
+    color: #999999;
+    font-size: 14px;
+    
+}
+.submit input[type="checkbox"]{
+    height: 15px;
+    margin-left: -50px;
+    width: 30px;
+}
+.submit input[type="submit"]{
+    background: linear-gradient(to bottom, #33a3d7 0%,#2766a5 100%);
+    border-radius: 2px;
+    height: 35px;
+    text-align: center;
+    padding-left: 0;
+    width: 150px;
+}
+.regFooter{
+    color: #999999;
+    font-size: 11px;
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 310px;
+}
+
