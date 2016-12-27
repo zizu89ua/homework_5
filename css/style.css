@@ -149,6 +149,7 @@ input::-webkit-input-placeholder{
     
 }
 .submit input[type="checkbox"]{
+    box-shadow: none;
     height: 15px;
     margin-left: -50px;
     width: 30px;
