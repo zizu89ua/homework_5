@@ -81,3 +81,37 @@ a{
     padding-bottom: 19px;
     padding-top: 24px;
 }
+.regForm{
+    text-align: center;
+    padding-top: 35px;
+}
+.regForm p{
+    padding-top: 15px;
+}
+.regForm input{
+    height: 35px;
+    width: 275px;
+}
+.box{
+    color: #999999;
+}
+.box::after{
+    content: " ";
+    position: absolute;
+    border-color: #666666;
+    border-style: solid;
+    border-width: 0px 46px 1px 71px;
+    box-shadow: 0px 1px 0px 0px rgba(0,0,0,1);
+    top: 413px;
+    right: 534px;
+}
+.box::before{
+    content: " ";
+    position: absolute;
+    border-color: #666666;
+    border-style: solid;
+    border-width: 0px 46px 1px 71px;
+    box-shadow: 0px 1px 0px 0px rgba(0,0,0,1);
+    top: 413px;
+    left: 534px;
+}
