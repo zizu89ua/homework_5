@@ -13,23 +13,28 @@ th{
 td{
     border-bottom: 5px solid;
     border-right: 5px solid;
-    height: 20px;
-    
+    height: 20px; 
 }
-.row1{
-    height: 50px;
+td:last-child{
+    border-right: 0;
 }
-.row2{
-    height: 100px;
+.row7 td{
+    border-bottom: 0;
 }
-.row3{
-    height: 100px;
+.row6 td{
+    border-bottom: 0;
 }
-.row4{
-    height: 50px;
+.row5 td{
+    border-bottom: 0;
 }
+.row1,
+.row4,
 .row5{
     height: 50px;
+}
+.row2,
+.row3{
+    height: 100px;
 }
 .box{
     background: black;
