@@ -89,11 +89,21 @@ a{
     padding-top: 15px;
 }
 .regForm input{
+    background: rgba(17,16,15,1);
+    border-bottom: 1px solid #484948;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    color: #ffffff;
     height: 35px;
+    padding-left: 20px;
     width: 275px;
 }
-.box{
+input::-webkit-input-placeholder{
     color: #999999;
+}
+.box{
+    color: #7c7f7c;
 }
 .box::after{
     content: " ";
