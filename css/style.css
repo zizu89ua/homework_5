@@ -38,10 +38,12 @@ body{
     padding: 0px;
 }
 .topmenu li:hover{
+    display: block;
     background-color: #4eabda;
     height: 25px;
 }
 .topmenu a:hover{
+    display: block;
     color: #ffffff;
 }
 .submenu{
@@ -63,10 +65,14 @@ body{
     background: linear-gradient(to bottom, rgba(81,177,220,1) 0%,rgba(46,122,196,1) 100%);
     border: 1px solid #469bd4;
     border-top: 0;
+    display: block;
+    padding-left: 9px;
+    padding-right: 14px;
     height: 24px;
 }
 .submenu a{
     color: #dde6ee;
+    display: block;
 }
 li{
     float: left;
@@ -93,14 +99,15 @@ form img{
     padding-bottom: 19px;
     padding-top: 24px;
 }
-.regForm{
+.reg-form{
     text-align: center;
     padding-top: 35px;
 }
-.regForm p{
-    padding-top: 15px;
+.box{
+    margin-bottom: 15px;
+    margin-top: 30px;
 }
-.regForm input{
+.reg-form input{
     background: rgba(17,16,15,1);
     border-bottom: 1px solid #484948;
     border-left: 0;
@@ -108,10 +115,11 @@ form img{
     border-right: 0;
     color: #ffffff;
     height: 35px;
+    margin-top: 15px;
     padding-left: 20px;
     width: 275px;
 }
-.regForm input:focus{
+.reg-form input:focus{
    background: rgb(31,75,118);
    border-bottom: 1px solid #689bcd;
    box-shadow: 0px 0px 5px 4px rgba(76,137,177,0.8);
@@ -119,28 +127,28 @@ form img{
 input::-webkit-input-placeholder{
     color: #999999;
 }
-.box{
+.box1{
     color: #999999;
     position: relative;
 }
-.box::after{
+.box1::after{
     content: " ";
     position: absolute;
     border-color: #666666;
     border-style: solid;
     border-width: 0px 58px 1px 71px;
     box-shadow: 0px 1px 0px 0px rgba(0,0,0,1);
-    top: 10px;
+    top: 9px;
     right: 30px;
 }
-.box::before{
+.box1::before{
     content: " ";
     position: absolute;
     border-color: #666666;
     border-style: solid;
     border-width: 0px 58px 1px 71px;
     box-shadow: 0px 1px 0px 0px rgba(0,0,0,1);
-    top: 10px;
+    top: 9px;
     left: 30px;
 }
 .submit p{
@@ -169,4 +177,50 @@ input::-webkit-input-placeholder{
     padding-top: 20px;
     width: 310px;
 }
+.facebook{
+    border: none;
+    border-radius: 5px;
+}
+.facebook li{
+    float: left;
+    display: inline;
+    font-family: Tahoma, Arial sans-serif;
+    
+}
+.f-letter{
+    background: -webkit-linear-gradient(top, rgba(64,87,154,1) 0%, rgba(51,66,99,1) 100%);
+    border-right: 1px solid #223c77;
+    border-top: 1px solid #4c68a9;
+    border-radius: 5px 0px 0px 5px;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 3px;
+    padding-top: 2px;
+    width: 37px;
+}
+.facebook-log{
+    background: -webkit-linear-gradient(top, rgba(64,87,154,1) 0%, rgba(51,66,99,1) 100%);
+    border-top: 1px solid #4c68a9;
+/*    border-radius: 0px 5px 5px 0px;*/
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px 10px 9px 30px;
 
+}
+.quote{
+    background: -webkit-linear-gradient(top, rgba(64,87,154,1) 0%, rgba(51,66,99,1) 100%);
+    border-top: 1px solid #4c68a9;
+    border-radius: 0px 5px 5px 0px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 6px;
+    padding-right: 10px;
+    padding-top: 5px;
+    width: 30px;
+}
